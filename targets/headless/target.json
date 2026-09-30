@@ -1,0 +1,11 @@
+{
+  "name": "headless",
+  "version": 1,
+  "development_compiler": {
+    "allowed_families": ["GNU", "Clang"],
+    "minimum_version": "10.0"
+  },
+  "development_cmake": {"minimum_version": "3.19"},
+  "development_ninja": {"minimum_version": "1.8"},
+  "capabilities": ["headless", "software-renderer", "mouse"]
+}

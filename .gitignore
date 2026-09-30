@@ -1,0 +1,57 @@
+# Build products and generator state
+/build/
+/out/
+/tmp/
+/Archive*.tar.*
+/cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+build.ninja
+.ninja_deps
+.ninja_log
+*.ninja
+
+# Native outputs and transient generated artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.d
+*.gcda
+*.gcno
+*.tmp
+*.temp
+*.log
+*.out
+*.pid
+
+# Local tools, caches, and machine configuration
+/.glyphweld-tools/
+/.glyphweld-cache/
+/.cache/
+/.local/
+*.local
+*.local.json
+.env
+.env.*
+!.env.example
+secrets/
+*.key
+*.pem
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
